@@ -7,9 +7,9 @@ int main() {
     scanf("%c", &e);
 
     if (e == 'S')
-        printf("S");
+        printf("Superior");
     else if (e == 'A')
-        printf("A");
+        printf("Excellent");
     else if (e == 'B')
         printf("Good");
     else if (e == 'C')
