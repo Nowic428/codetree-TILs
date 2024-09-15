@@ -8,5 +8,6 @@ int main() {
     {
         printf("%d\nminus", a);
     }
+    printf("%d", a);
     return 0;
 }
