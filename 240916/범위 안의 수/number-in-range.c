@@ -6,7 +6,7 @@ int main() {
     
     scanf("%d", &a);
 
-    if (a >= 10 || a <= 20)
+    if (a <= 20 || a >=10)
         printf("yes");
     else
         printf("no");
