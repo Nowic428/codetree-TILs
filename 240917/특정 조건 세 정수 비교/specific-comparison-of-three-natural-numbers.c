@@ -8,8 +8,6 @@ int main() {
 
     if (a <= b && a <= c && b <= c)
             printf("1 ");
-        else
-            printf("0 ");
     else
         printf("0 ");
     if (a == b == c)
