@@ -7,7 +7,7 @@ int main() {
     scanf("%d %d", &Ma, &Ea);
     scanf("%d %d", &Mb, &Eb);
 
-    if (Ma > Mb && Mb > Eb)
+    if (Ma > Mb && Ea > Eb)
         printf("1");
     else 
         printf("0");
