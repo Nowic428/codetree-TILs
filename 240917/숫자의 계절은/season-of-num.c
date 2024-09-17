@@ -10,7 +10,7 @@ int main() {
         printf("Spring");
     else if (m >= 6 && m <= 8)
         printf("Summer");
-    else if (m >= 9 && m >= 11)
+    else if (m >= 9 && m <= 11)
         printf("Fall");
     else
         printf("Winter");
