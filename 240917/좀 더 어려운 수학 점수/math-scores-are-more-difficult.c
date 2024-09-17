@@ -8,11 +8,7 @@ int main() {
     scanf("%d %d", &a_math, &a_eng);
     scanf("%d %d", &b_math, &b_eng);
 
-    if (a_math > b_math)
-        printf("A");
-    else if (a_math < b_math)
-        printf("B");
-    else if (a_math == b_math && a_eng > b_eng)
+    if (a_math > b_math || (a_math == b_math && a_eng > b_eng))
         printf("A");
     else
         printf("B");
