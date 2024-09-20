@@ -7,7 +7,7 @@ int main() {
 
     scanf("%d", &n);
 
-    for (int i = n; i <= n; i++)
+    for (int i = 1; i <= n; i++)
     {
         scanf("%d\n", &a);
         if (a % 2 != 0 && a % 3 == 0)
