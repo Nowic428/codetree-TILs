@@ -16,6 +16,11 @@ int main() {
             printf("%d", cnt);
             break;
         }
+        if(n == 2)
+        {
+            printf("%d", 2);
+            break;
+        }
     }
     return 0;
 }
