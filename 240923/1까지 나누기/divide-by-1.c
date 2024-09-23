@@ -9,16 +9,12 @@ int main() {
 
     for(int i = 1; i <= n; i++)
     {   
-        cnt++;
-
+        if(i == 1)
+            cnt == 1;
+        cnt ++;
         if((n / i) / (i + 1) <= 1)
         {
             printf("%d", cnt);
-            break;
-        }
-        if(n == 2)
-        {
-            printf("%d", 2);
             break;
         }
     }
