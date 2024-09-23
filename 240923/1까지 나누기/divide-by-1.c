@@ -9,14 +9,15 @@ int main() {
 
     for(int i = 1; i <= n; i++)
     {   
-        if(i == 1)
-            cnt == 1;
-        cnt ++;
-        if((n / i) / (i + 1) <= 1)
+        cnt++;
+
+        if(n / i <= 1)
         {
             printf("%d", cnt);
             break;
         }
+        
+        n /= i;
     }
     return 0;
 }
