@@ -8,14 +8,10 @@ int main() {
     scanf("%d", &n);
 
     for(int i = 1; i <= n; i++)
-    {
-        int a;
-
-        a = n / i;
-        
+    {   
         cnt++;
 
-        if(a / (i + 1) <= 1)
+        if((n / i) / (i + 1) <= 1)
         {
             printf("%d", cnt);
             break;
