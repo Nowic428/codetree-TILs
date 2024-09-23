@@ -10,7 +10,7 @@ int main() {
     {
         if(i % 2 == 0)
             continue;
-        if(i % 10 == 0)
+        if(i % 10 == 5)
             continue;
         if(i % 3 == 0 && i % 9 != 0)
             continue;
