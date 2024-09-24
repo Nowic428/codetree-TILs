@@ -11,16 +11,14 @@ int main() {
     {
         if(n % 2 == 0)
             n /= 2;
-        else
-            n = (n*3+1);
-
-        cnt++;
-        
-        if(n == 1)
+        else if (n == 1)
         {
             printf("%d", cnt);
             break;
         }
+        else
+            n = (n*3+1);
+        cnt++;
     }
     return 0;
 }
