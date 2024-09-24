@@ -10,8 +10,14 @@ int main() {
 
     for(int i = a; i <= b; i++)
     {
-        if(i % c != 0)
+        if(i % c != 0){
             satisfied = false;
+        }
+        else
+        {
+            satisfied = true;
+            break;
+        }
     }
     if(satisfied == false)
         printf("YES");
